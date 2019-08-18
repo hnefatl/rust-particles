@@ -6,3 +6,4 @@ edition = "2018"
 
 [dependencies]
 glium = "0.25.1"
+rand = "0.7.0"
