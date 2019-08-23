@@ -19,6 +19,7 @@ in
             xorg.libXrandr
             xorg.libXi
             libGL
+            glslang
 
             lldb
 
