@@ -75,7 +75,7 @@ fn main_loop(display: glium::Display, mut events_loop: glium::glutin::EventsLoop
     use glium::glutin::{ElementState, Event, KeyboardInput, VirtualKeyCode, WindowEvent};
 
     let mut closed = false;
-    let num_particles = 20;
+    let num_particles = 5000;
     let shaders = load_shaders().expect("Failed to load shaders");
     let shader_program =
         glium::program::Program::from_source(&display, &shaders.vertex, &shaders.fragment, None)
